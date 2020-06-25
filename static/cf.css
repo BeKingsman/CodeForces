@@ -17,13 +17,6 @@ header{
     text-align: center;
 
 }
-@media screen and (max-width: 992px) {
-    body {
-      width: 1800px;
-      margin: 0px;
-      padding: 0px;
-    }
-  }
 
 
 header img{
@@ -248,5 +241,31 @@ header img{
     /* color: black; */
 }
 
+#for-mobile{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 80px;
+    overflow-wrap: normal;
+    visibility: hidden;
 
+
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      visibility: hidden;
+      width: 100%;
+      text-align: center;
+      
+      
+    }
+    #for-mobile{
+        visibility: visible;
+        background-color: black;
+        color: white;
+    }
+
+  }
 
