@@ -79,8 +79,8 @@ function GetSortedData(minRating=800,maxRating=3500,tags_list=[]){
 
 function MainWork(){
     // console.log(data["800"])
-    var minRating=1800;
-    var maxRating=2000;
+    var minRating=1400;
+    var maxRating=1800;
     // var tags_list=['graphs','dp'];
     
     var tags_list=[];
