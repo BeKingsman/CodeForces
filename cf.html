@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="cf.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/cf2.css">
+    <link rel="stylesheet" href="static/cf.css">
+    <title>CodeForces Filter</title>
+</head>
+
+
+
+
+<body>
+    <header>
+        <img src="assets/cf2.png" alt="" class="logo">
+    </header>
+    
+
+
+
+    <div id="side">
+        <div id="side-rating">
+            <p class="side-heading" id="side-rating-head">Rating </p>
+            <!-- <p class="range-heading" id="input-range-heading">From: </p> -->
+                <div class="container">
+                    <div class="slider">
+                    <div class="track"></div>
+                    </div>
+                    <div class="output o0" id="out0"> </div>
+                    <div class="thumb t0"></div>
+                
+                    <div class="output o1" id="out1"> </div>
+                    <div class="thumb t1"></div>
+                </div>
+                
+        </div>
+
+        
+        <div id="side-topics">
+            <p class="side-heading" id="side-rating-head">Topics </p>
+
+            <ul id="topics-form">
+
+                <li>
+                    <label class="container2"><div>Shortest Paths</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Meet-In-The-Middle</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Matrices</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>*Special Problem</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Constructive Algorithms</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Implementation</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Ternary Search</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Dsu</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Dfs And Similar</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Math</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Divide And Conquer</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Two Pointers</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Combinatorics</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Greedy</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Data Structures</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Trees</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Sortings</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Expression Parsing</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Dp</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Hashing</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Bitmasks</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Geometry</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Number Theory</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Graphs</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Brute Force</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Games</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Binary Search</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Strings</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+                    
+                    <li>
+                    <label class="container2"><div>Interactive</div>
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                    </label>
+                    </li>
+
+
+
+                <li>
+                    <label class="container2"><div>Binary Search</div>
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+
+                
+                
+            </ul>    
+            <!-- <div id="form-submit-button">
+                Apply
+            </div> -->
+
+                <!-- <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Graphs</label> -->
+                
+            
+            
+
+
+        </div>
+    </div>
+
+
+
+
+    <div id="main-content">
+        <ul id="ques-list">
+
+            <!-- <a href="#" class="row-link" target="_blank">
+                <li class="row">
+                    <p class="name">Strong Password</p>
+                    <p class="tags">Tags : <a href="#">Graphs, </a><a href="#">Graphs, </a><a href="#">Graphs, </a><a href="#">Graphs, </a><a href="#">Graphs, </a></p>
+                    <p class="rate-icon"><span class="rate-text">Rating : 1800</span></p>
+                </li> 
+            </a> -->
+            <!-- <a href="#" class="row-link" target="_blank">
+                <li class="row">
+                    <p class="name">Strong Password</p>
+                    <p class="tags">Tags : <a href="#">Graphs, </a><a href="#">Graphs, </a><a href="#">Graphs, </a><a href="#">Graphs, </a><a href="#">Graphs, </a></p>
+                    <p class="rate-icon"><span class="rate-text">Rating : 1800</span></p>
+                </li> 
+            </a> -->
+            <!-- <a href="#" class="row-link" target="_blank">
+                <li class="row">
+                    <p class="name">Strong Password</p>
+                    <p class="tags">Tags : <span>Graphs, </span><span>Graphs, </span><span>Graphs, </span><span>Graphs, </span><span>Graphs, </span></p>
+                    <p class="rate-icon"><span class="rate-text">Rating : 1800</span></p>
+                </li> 
+            </a> -->
+            
+
+
+        </ul>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="static/cf3.js"></script>
+    <!-- <script type="text/javascript" src="static/data.json"></script> -->
+    <script src="static/cf.js"></script>  
+</body>
+
+
+
+
+
+</html>

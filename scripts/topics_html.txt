@@ -1,0 +1,203 @@
+<li>
+<label class="container2"><div>Shortest Paths</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Meet-In-The-Middle</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Matrices</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>*Special Problem</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Constructive Algorithms</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Implementation</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Ternary Search</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Dsu</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Dfs And Similar</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Math</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Divide And Conquer</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Two Pointers</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Combinatorics</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Greedy</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Data Structures</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Trees</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Sortings</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Expression Parsing</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Dp</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Hashing</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Bitmasks</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Geometry</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Number Theory</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Graphs</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Brute Force</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Games</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Binary Search</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Strings</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
+<li>
+<label class="container2"><div>Interactive</div>
+<input type="checkbox" >
+<span class="checkmark"></span>
+</label>
+</li>
+
