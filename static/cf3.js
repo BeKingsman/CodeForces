@@ -6,7 +6,7 @@ var inputsRy = {
     thumbWidth: 18, // thumb width
     thumbBorderWidth: 4,
     trackHeight: 10,
-    theValue: [1.4, 1.8] // theValue[0] < theValue[1]
+    theValue: [10, 20] // theValue[0] < theValue[1]
   };
   var isDragging0 = false;
   var isDragging1 = false;
