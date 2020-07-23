@@ -13,7 +13,7 @@ function CreateCard(ques_list){
         var tags = ques["tags"];
         console.log(tags);
         
-        temp_html+='<a href="'+link+'" class="row-link" target="_blank"><li class="row"><p class="name">'+name+'</p><p class="tags">Tags : ';
+        temp_html+='<a href="'+link+'#header" class="row-link" target="_blank"><li class="row"><p class="name">'+name+'</p><p class="tags">Tags : ';
         for(var j=0;j<tags.length;j+=1){
             // temp_html+='<a href="'+link+'">'+tags[j]+', </a>'
             temp_html+='<span>'+tags[j]+', </span>'
