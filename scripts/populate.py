@@ -12,7 +12,7 @@ tags_html=""
 # for i in 
 for page in range(1,63):
 # for page in range(1):
-    source= requests.get('https://codeforces.com/problemset/page/'+str(page)).text
+    source= requests.get('https://codeforces.com/problemset/page/'+str(page)).text+'?order=BY_SOLVED_DESC'
     soup= bs(source,'lxml')
     problems_table= soup.find('table',class_='problems')
     
@@ -50,6 +50,7 @@ for page in range(1,63):
         except:
             errors_cnt+=1
             continue
+    print("Page "+str(page)+' Completed')
 
 for k in data[1400].keys():
     tags_html+='<li>\n<label class="container2"><div>'+k.title()+'</div>\n<input type="checkbox" >\n<span class="checkmark"></span>\n</label>\n</li>\n\n'
